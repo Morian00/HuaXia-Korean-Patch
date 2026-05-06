@@ -1,0 +1,505 @@
+file	decision	rows	zhko_rows	direct_surface_cn_fields	numeric_surface_refs	dev_remark_cn_fields	suspect_fields	sample	reason
+t_access.xml	reference_only	29	0	0	52	26			Text-like fields appear to be numeric language sid references.
+t_actionfsmstate.xml	no_translation_code_data	433	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_agetranstable.xml	no_translation_code_data	21	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_aiactions.xml	no_translation_code_data	176	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_aicontrol.xml	no_translation_dev_remark_only	15	0	0	0	12			Chinese text appears only in developer remark fields.
+t_aicontrol2.xml	no_translation_dev_remark_only	8	0	0	0	5			Chinese text appears only in developer remark fields.
+t_aicontrol3.xml	no_translation_dev_remark_only	9	0	0	0	6			Chinese text appears only in developer remark fields.
+t_aicontrol4.xml	no_translation_dev_remark_only	10	0	0	0	7			Chinese text appears only in developer remark fields.
+t_aimethod.xml	no_translation_dev_remark_only	8	0	0	0	5			Chinese text appears only in developer remark fields.
+t_ambition.xml	reference_only	30	0	0	27	27			Text-like fields appear to be numeric language sid references.
+t_archerduelist0.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_archerduelist1.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_archerduelist2.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_archerduelist2s.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_archerduelist3.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_archerduelist3s.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_armorpiercing0.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_armorpiercing1.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_armorpiercing2.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_armorpiercing2s.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_armorpiercing3.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_armorpiercing3s.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_armyconsume.xml	no_translation_code_data	207	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_askforadvice.xml	no_translation_code_data	3022	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_assault0.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_assault1.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_assault2.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_assault2s.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_assault3.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_assault3s.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_assesttypes.xml	no_translation_code_data	71	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_associatecondition.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_atmosphererole.xml	no_translation_dev_remark_only	45	0	0	0	42			Chinese text appears only in developer remark fields.
+t_attendant.xml	no_translation_code_data	135	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_attendentcharge.xml	no_translation_code_data	18	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_attendentgroup.xml	no_translation_code_data	31	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_attendentstorerefresh.xml	no_translation_code_data	69	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_attribute.xml	no_translation_code_data	33	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_awaken.xml	no_translation_code_data	38	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bagconsume.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_battlefield.xml	no_translation_code_data	19	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_battlefieldbuilding.xml	reference_only	18	0	0	30	15			Text-like fields appear to be numeric language sid references.
+t_battlefieldeffect.xml	no_translation_code_data	5	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_battlefieldlandform.xml	reference_only	11	0	0	16	8			Text-like fields appear to be numeric language sid references.
+t_bear1.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bear2.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bear21.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bear22.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bear23.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bear24.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bear4.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bear41.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bear42.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bear43.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bear44.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bear45.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_beast1.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_beast2.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_beast3.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_beast4.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_birth.xml	reference_only	35	0	0	32	32			Text-like fields appear to be numeric language sid references.
+t_books.xml	reference_only	206	0	0	406	0			Text-like fields appear to be numeric language sid references.
+t_booksgounp.xml	reference_only	30	0	0	54	0			Text-like fields appear to be numeric language sid references.
+t_bow1a.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow1b.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow1c.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow1d.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow1e.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow1f.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow1g.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow2a.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow2b.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow2c.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow2d.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow2e.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow2f.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow2g.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow3a.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow3b.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow3c.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow3d.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow3e.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow3f.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow3g.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow4a.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow4b.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow4c.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow4d.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow4e.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow4f.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow4g.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow5a.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow5b.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow5c.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow5d.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow5e.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow5f.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow5g.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow6a.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow6b.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow6c.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow6d.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow6e.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow6f.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bow6g.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bowlongbow1.xml	no_translation_code_data	15	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bowlongbow2.xml	no_translation_code_data	15	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bowlongbow3.xml	no_translation_code_data	15	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_bowlongbow4.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_buff.xml	no_translation_code_data	998	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_buffcontrol.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_buffeffect.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_building.xml	reference_only	243	0	0	720	240			Text-like fields appear to be numeric language sid references.
+t_buildinginteraction.xml	no_translation_code_data	341	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_buildingroom.xml	reference_only	43	0	0	80	40			Text-like fields appear to be numeric language sid references.
+t_carpentryformula.xml	no_translation_code_data	53	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_cattle1.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_cattle2.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_cattle4.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_changeclothes.xml	reference_only	227	0	0	224	0			Text-like fields appear to be numeric language sid references.
+t_changgui1.xml	no_translation_code_data	15	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_characteristic.xml	no_translation_dev_remark_only	724	0	0	0	721			Chinese text appears only in developer remark fields.
+t_clancrop.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_clanfacility.xml	no_translation_code_data	21	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_clanflag.xml	no_translation_code_data	91	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_clanflagcolor.xml	no_translation_code_data	43	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_clanhunt.xml	no_translation_dev_remark_only	9	0	0	0	6			Chinese text appears only in developer remark fields.
+t_clanlevel.xml	no_translation_code_data	13	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_clanlivestock.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_clanproperty.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_clansman.xml	no_translation_dev_remark_only	67	0	0	0	64			Chinese text appears only in developer remark fields.
+t_clantask.xml	no_translation_dev_remark_only	74	0	0	0	71			Chinese text appears only in developer remark fields.
+t_climate.xml	no_translation_dev_remark_only	18	0	0	0	15			Chinese text appears only in developer remark fields.
+t_close0.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_close1.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_close2.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_close2s.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_close3.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_close3s.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_comheroteamai.xml	no_translation_code_data	4	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_commonhunterai.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_commonworldai.xml	no_translation_code_data	5	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_comwanderai.xml	no_translation_code_data	6	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_concept.xml	no_translation_dev_remark_only	267	0	0	0	264			Chinese text appears only in developer remark fields.
+t_constructionformula.xml	no_translation_code_data	19	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_continent.xml	no_translation_dev_remark_only	12	0	0	0	9			Chinese text appears only in developer remark fields.
+t_country.xml	no_translation_dev_remark_only	10	0	0	0	7			Chinese text appears only in developer remark fields.
+t_craftsmanformula.xml	no_translation_code_data	52	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crime.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crimeaction.xml	reference_only	24	0	0	21	0			Text-like fields appear to be numeric language sid references.
+t_crops.xml	no_translation_code_data	22	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowcharioteers0.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowcharioteers1.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowcharioteers2.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowcharioteers2s.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowcharioteers3.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowcharioteers3s.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowmen0.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowmen1.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowmen2.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowmen2s.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowmen3.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowmen3s.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowonehand1.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowonehand2.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowonehand3.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_crossbowonehand4.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_datatracking.xml	no_translation_code_data	16	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_dialougeindex.xml	no_translation_code_data	532	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_dicerule.xml	no_translation_code_data	85	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_difficulty.xml	no_translation_code_data	34	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_diplomacychip.xml	no_translation_code_data	15	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_diplomacytopic.xml	no_translation_code_data	5	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_diplomacytype.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_dualweapondao1.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_dualweapondao2.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_dualweapondao3.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_dualweapondao4.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_effect.xml	no_translation_dev_remark_only	1257	0	0	0	1254			Chinese text appears only in developer remark fields.
+t_eloquencecombination.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_eloquenceskill.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_eloquencestatus.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_eloquencetalk.xml	no_translation_code_data	71	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_encyclopedia.xml	no_translation_code_data	71	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_enemyexperience.xml	no_translation_code_data	303	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_equipment.xml	reference_only	439	0	0	872	436			Text-like fields appear to be numeric language sid references.
+t_equipmentmodel.xml	reference_only	364	0	0	206	359			Text-like fields appear to be numeric language sid references.
+t_equiprandomattr.xml	no_translation_code_data	147	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_eventoption.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_experience.xml	no_translation_code_data	349	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_factions.xml	no_translation_dev_remark_only	33	0	0	0	30			Chinese text appears only in developer remark fields.
+t_fairyland.xml	reference_only	68	0	0	195	65			Text-like fields appear to be numeric language sid references.
+t_fairylandrandom.xml	no_translation_code_data	73	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_famelevel.xml	no_translation_code_data	16	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_fiefdomassignment.xml	no_translation_code_data	20	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_fiefdomfixbuilding.xml	no_translation_dev_remark_only	28	0	0	0	25			Chinese text appears only in developer remark fields.
+t_fiefdomjob.xml	no_translation_dev_remark_only	21	0	0	0	18			Chinese text appears only in developer remark fields.
+t_fiefdomslotbuilding.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_firstcontactdialogue.xml	no_translation_code_data	168	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_fiveelements.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_flyer.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_flyingdagger1.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_flyingdagger2.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_flyingdagger3.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_flyingdagger4.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_forgingformula.xml	no_translation_code_data	116	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_formulacategory.xml	no_translation_code_data	26	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_frontline0.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_frontline1.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_frontline2.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_frontline2s.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_frontline3.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_frontline3s.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_gamesettings.xml	no_translation_code_data	84	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_gecharioteers0.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_gecharioteers1.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_gecharioteers2.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_gecharioteers2s.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_gecharioteers3.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_gecharioteers3s.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_ghost0.xml	no_translation_code_data	4	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_ghost1.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_ghost2.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_ghost4.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_ghostsha.xml	no_translation_code_data	13	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_gunsheng1.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_gunsheng4.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_heavy0.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_heavy1.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_heavy2.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_heavy2s.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_heavy3.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_heavy3s.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_heavyshock0.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_heavyshock1.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_heavyshock2.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_heavyshock2s.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_heavyshock3.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_heavyshock3s.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_heroaimark.xml	no_translation_code_data	23	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_heroteam.xml	no_translation_code_data	4	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_horsearchers0.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_horsearchers1.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_horsearchers2.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_horsearchers2s.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_horsearchers3.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_horsearchers3s.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_horsecutting0.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_horsecutting1.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_horsecutting2.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_horsecutting2s.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_horsecutting3.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_horsecutting3s.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_hunting.xml	no_translation_code_data	153	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_identitychange.xml	no_translation_dev_remark_only	94	0	0	0	91			Chinese text appears only in developer remark fields.
+t_idsubstitute.xml	no_translation_code_data	5	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_initialcharacter.xml	no_translation_code_data	29	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_initiallocation.xml	no_translation_code_data	5	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_interactivecontroller.xml	no_translation_dev_remark_only	431	0	0	0	428			Chinese text appears only in developer remark fields.
+t_interactiveexperience.xml	no_translation_code_data	204	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_interactiveproptable.xml	reference_only	259	0	0	256	256			Text-like fields appear to be numeric language sid references.
+t_interactivetemple.xml	no_translation_code_data	3033	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_interfaceguide.xml	reference_only	110	0	0	111	0			Text-like fields appear to be numeric language sid references.
+t_inventory.xml	no_translation_code_data	232	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_invitationqa.xml	no_translation_code_data	18	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_jobtemplate.xml	reference_only	287	0	0	2272	0			Text-like fields appear to be numeric language sid references.
+t_karate1.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_karate2.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_karate3.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_karate4.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_kitchenmenu.xml	no_translation_code_data	33	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_landtemplate.xml	no_translation_code_data	53	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_language.xml	primary_translation_table	31293	31290	0	0	0			Main translation table with zh/ko attributes.
+t_languagecommand.xml	no_translation_code_data	5	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_lightcavalry0.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_lightcavalry1.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_lightcavalry2.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_lightcavalry2s.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_lightcavalry3.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_lightcavalry3s.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_lightshock0.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_lightshock1.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_lightshock2.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_lightshock2s.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_lightshock3.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_lightshock3s.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_line0.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_line1.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_line2.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_line2s.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_line3.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_line3s.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_longbowmen0.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_longbowmen1.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_longbowmen2.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_longbowmen2s.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_longbowmen3.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_longbowmen3s.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_longweaponspear1.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_longweaponspear2.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_longweaponspear3.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_longweaponspear4.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_manufactureformula.xml	no_translation_code_data	76	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_militaryarmy.xml	no_translation_code_data	16	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_militarysoldier.xml	no_translation_code_data	87	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_model.xml	no_translation_dev_remark_only	452	0	0	0	449			Chinese text appears only in developer remark fields.
+t_monthjob.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_nametemplate.xml	no_translation_code_data	896	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_newsinfo.xml	no_translation_dev_remark_only	402	0	0	0	399			Chinese text appears only in developer remark fields.
+t_normalcontactdialogue.xml	no_translation_code_data	303	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded1a.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded1b.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded1c.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded1d.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded1e.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded1f.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded1g.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded2a.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded2b.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded2c.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded2d.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded2e.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded2f.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded2g.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded3a.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded3b.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded3c.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded3d.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded3e.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded3f.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded3g.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded4a.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded4b.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded4c.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded4d.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded4e.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded4f.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded4g.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded5a.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded5b.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded5c.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded5d.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded5e.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded5f.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded5g.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded6a.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded6b.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded6c.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded6d.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded6e.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded6f.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehanded6g.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehandedsword1.xml	no_translation_code_data	17	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehandedsword2.xml	no_translation_code_data	17	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehandedsword3.xml	no_translation_code_data	17	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_onehandedsword4.xml	no_translation_code_data	16	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_output.xml	no_translation_code_data	1134	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_panther1.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_panther2.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_panther4.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_placeanomaly.xml	no_translation_code_data	24	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_placechange.xml	no_translation_code_data	45	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_placeguard.xml	no_translation_code_data	94	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_placeintercation.xml	no_translation_code_data	970	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_placetype.xml	no_translation_code_data	19	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_populationclass.xml	no_translation_dev_remark_only	8	0	0	0	5			Chinese text appears only in developer remark fields.
+t_populationissue.xml	no_translation_dev_remark_only	93	0	0	0	90			Chinese text appears only in developer remark fields.
+t_populationwork.xml	no_translation_dev_remark_only	27	0	0	0	24			Chinese text appears only in developer remark fields.
+t_prefectureattribute.xml	no_translation_code_data	33	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_prefecturedata.xml	no_translation_code_data	228	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_prescriptmenu.xml	no_translation_code_data	34	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_project.xml	no_translation_code_data	302	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_prop.xml	no_translation_dev_remark_only	649	0	0	0	646			Chinese text appears only in developer remark fields.
+t_publicdata.xml	no_translation_code_data	700	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_randomevent.xml	no_translation_dev_remark_only	162	0	0	0	159			Chinese text appears only in developer remark fields.
+t_randomtask.xml	no_translation_code_data	40	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_record.xml	no_translation_code_data	42	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_refreshevent.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_residenceobtain.xml	no_translation_code_data	28	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_resource.xml	no_translation_code_data	83	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rest.xml	no_translation_code_data	21	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_restoption.xml	no_translation_code_data	21	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_ridebow1a.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_ridebow2a.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_ridebow3a.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_ridebow4a.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_ridebow5a.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_ridebow6a.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rideonehanded1a.xml	no_translation_code_data	13	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rideonehanded2a.xml	no_translation_code_data	13	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rideonehanded3a.xml	no_translation_code_data	13	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rideonehanded4a.xml	no_translation_code_data	13	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rideonehanded5a.xml	no_translation_code_data	13	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rideonehanded6a.xml	no_translation_code_data	13	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_role.xml	reference_only	1017	0	0	4341	1014			Text-like fields appear to be numeric language sid references.
+t_roleattribute.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rolebody.xml	no_translation_code_data	38	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rolehobbiesbehavior.xml	no_translation_code_data	21	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rolelcolor.xml	no_translation_code_data	7	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rolelevel.xml	no_translation_code_data	306	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rolelook.xml	no_translation_code_data	170	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rolematerial.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rolenpcdata.xml	no_translation_code_data	577	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rolenumerictype.xml	no_translation_code_data	565	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rolepreset.xml	reference_only	26	0	0	23	0			Text-like fields appear to be numeric language sid references.
+t_rolepresetage.xml	no_translation_code_data	25	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rolepresetbody.xml	no_translation_code_data	13	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rolepresetface.xml	no_translation_code_data	5	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rolerace.xml	reference_only	19	0	0	48	0			Text-like fields appear to be numeric language sid references.
+t_rolerelation.xml	no_translation_code_data	21	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_rolesound.xml	reference_only	25	0	0	22	22			Text-like fields appear to be numeric language sid references.
+t_scenario.xml	no_translation_code_data	4	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_sceneinterpretation.xml	no_translation_dev_remark_only	34	0	0	0	31			Chinese text appears only in developer remark fields.
+t_scenes.xml	reference_only	146	0	0	143	143			Text-like fields appear to be numeric language sid references.
+t_scenetype.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_schoolskill.xml	no_translation_code_data	267	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_security.xml	no_translation_code_data	43	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_shieldweapondao1.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_shieldweapondao2.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_shieldweapondao3.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_shieldweapondao4.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_shortweapondagger1.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_shortweapondagger2.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_shortweapondagger3.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_shortweapondagger4.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_skill.xml	reference_only	1122	0	0	2238	0			Text-like fields appear to be numeric language sid references.
+t_skillbuff.xml	no_translation_code_data	125	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_solar.xml	no_translation_code_data	27	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_soundgroup.xml	no_translation_code_data	201	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_sounds.xml	review_direct_surface_text	3765	0	22	0	0	content:22	content=刚刚那妖仙姐姐法力无边，杀我们根本不用那么麻烦。 | content=让他继续干吧姐姐，他干得可好了。 | content=哼，拉倒吧成天撅着个嘴还当爷爷看不出来？	Possible direct player-facing Chinese text outside language tables. Review separately.
+t_spellcasting00.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_spellcasting01.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_spellcasting1.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_spellcasting10.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_spellcasting11.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_spellcasting20.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_spellcasting20s.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_spellcasting21.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_spellcasting21s.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_spellcasting30.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_spellcasting30s.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_spellcasting31.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_spellcasting31s.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_stage.xml	no_translation_code_data	1686	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_stageinteraction.xml	no_translation_code_data	20	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_startparams.xml	no_translation_code_data	6	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_steamachievement.xml	no_translation_code_data	23	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_steamdlc.xml	no_translation_code_data	3	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_storage.xml	no_translation_code_data	78	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_subordinatesassign.xml	reference_only	7	0	0	4	0			Text-like fields appear to be numeric language sid references.
+t_summon1.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_system.xml	no_translation_code_data	108	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_systemfunc.xml	no_translation_code_data	33	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_talent.xml	reference_only	763	0	0	1520	0			Text-like fields appear to be numeric language sid references.
+t_tasklanguage.xml	primary_translation_table	9417	9414	0	0	0			Main translation table with zh/ko attributes.
+t_team.xml	no_translation_code_data	213	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_teaminteractivecontroller.xml	no_translation_code_data	222	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_teaminteractivetemple.xml	no_translation_code_data	28	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_technique.xml	no_translation_code_data	111	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_techniqueskill.xml	reference_only	8	0	0	5	0			Text-like fields appear to be numeric language sid references.
+t_technology.xml	no_translation_code_data	237	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_technologyposition.xml	no_translation_code_data	237	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_thirdlevelinteractiveproptable.xml	no_translation_dev_remark_only	109	0	0	0	106			Chinese text appears only in developer remark fields.
+t_thrive.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_time.xml	reference_only	27	0	0	24	0			Text-like fields appear to be numeric language sid references.
+t_tips.xml	reference_only	1529	0	0	4572	0			Text-like fields appear to be numeric language sid references.
+t_totem.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_touchoffskill.xml	no_translation_code_data	15	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_trap.xml	no_translation_code_data	43	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_triggeredtask.xml	no_translation_code_data	20	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_tripodfragment.xml	no_translation_code_data	12	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_tripodfragmentinit.xml	no_translation_code_data	6	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_tuwolf0.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_tuwolf1.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_tuwolf2.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_tuwolf3.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_tuwolf4.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_tuwolf5.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_tuwolf6.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_twohandedaxe1.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_twohandedaxe2.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_twohandedaxe3.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_twohandedaxe4.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_wolf1.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_wolf2.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_wolf21.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_wolf22.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_wolf23.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_wolf24.xml	no_translation_code_data	9	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_wolf4.xml	no_translation_code_data	8	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_wolf41.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_wolf42.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_wolf43.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_wolf44.xml	no_translation_code_data	10	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_worldcity.xml	reference_only	346	0	0	1372	0			Text-like fields appear to be numeric language sid references.
+t_worldclan.xml	no_translation_code_data	22	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_worldprefecture.xml	no_translation_dev_remark_only	55	0	0	0	52			Chinese text appears only in developer remark fields.
+t_xiangjiu3.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_zhouai2.xml	no_translation_code_data	13	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_zhouyan4.xml	no_translation_code_data	14	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_zhouyanr4.xml	no_translation_code_data	17	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_zoninggradetable.xml	no_translation_code_data	55	0	0	0	0			No obvious player-facing Chinese text fields detected.
+t_zoningtemplate.xml	reference_only	60	0	0	114	0			Text-like fields appear to be numeric language sid references.
+t_zulao4.xml	no_translation_code_data	11	0	0	0	0			No obvious player-facing Chinese text fields detected.

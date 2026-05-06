@@ -1,0 +1,7 @@
+﻿term_key	source_text	replacement	source_bytes	replacement_bytes	same_byte_length	bundle_path	occurrences_in_bundle	risk_note
+blood_relation	血亲关系		12	12	yes	hxss_Data/StreamingAssets/aa/StandaloneWindows64/6b03dc2f13e0cdd9f3f8a6d12022a96c.bundle	2	same-length binary patch candidate; test one backup bundle first
+social_relation	人际关系		12	12	yes	hxss_Data/StreamingAssets/aa/StandaloneWindows64/6b03dc2f13e0cdd9f3f8a6d12022a96c.bundle	2	same-length binary patch candidate; test one backup bundle first
+view_ambition	查看志向		12	12	yes	hxss_Data/StreamingAssets/aa/StandaloneWindows64/6b03dc2f13e0cdd9f3f8a6d12022a96c.bundle	2	same-length binary patch candidate; test one backup bundle first
+equipment_idea	装备理念		12	12	yes	hxss_Data/StreamingAssets/aa/StandaloneWindows64/6b03dc2f13e0cdd9f3f8a6d12022a96c.bundle	2	same-length binary patch candidate; test one backup bundle first
+view_clan	查看宗族		12	12	yes	hxss_Data/StreamingAssets/aa/StandaloneWindows64/6b03dc2f13e0cdd9f3f8a6d12022a96c.bundle	3	same-length binary patch candidate; test one backup bundle first
+ability	能力		6	6	yes	hxss_Data/StreamingAssets/aa/StandaloneWindows64/6b03dc2f13e0cdd9f3f8a6d12022a96c.bundle	1	same-length binary patch candidate; test one backup bundle first

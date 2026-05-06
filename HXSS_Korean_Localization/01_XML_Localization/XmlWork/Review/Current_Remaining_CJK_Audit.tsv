@@ -1,0 +1,13 @@
+﻿category	language_table	sid	cjk_chars	zh	ko_new	owner	notes
+allow_fixed_short_label	t_language.xml	316040	一	一	一	HuaxDraft	merged_from_huax_draft; priority5_misc; priority5_encoding_repair
+allow_fixed_short_label	t_language.xml	316041	二	二	二	HuaxDraft	merged_from_huax_draft; priority5_misc; priority5_encoding_repair
+allow_fixed_short_label	t_language.xml	316042	三	三	三	HuaxDraft	merged_from_huax_draft; priority5_misc; priority5_encoding_repair
+allow_fixed_short_label	t_language.xml	316043	四	四	四	HuaxDraft	merged_from_huax_draft; priority5_misc; priority5_encoding_repair
+allow_fixed_short_label	t_language.xml	316044	五	五	五	HuaxDraft	merged_from_huax_draft; priority5_misc; priority5_encoding_repair
+allow_fixed_short_label	t_language.xml	316045	六	六	六	HuaxDraft	merged_from_huax_draft; priority5_misc; priority5_encoding_repair
+allow_fixed_short_label	t_language.xml	316046	七	七	七	HuaxDraft	merged_from_huax_draft; priority5_misc; priority5_encoding_repair
+allow_fixed_short_label	t_language.xml	316047	八	八	八	HuaxDraft	merged_from_huax_draft; priority5_misc; priority5_encoding_repair
+allow_fixed_short_label	t_language.xml	316048	九	九	九	HuaxDraft	merged_from_huax_draft; priority5_misc; priority5_encoding_repair
+allow_fixed_short_label	t_language.xml	316049	十	十	十	HuaxDraft	merged_from_huax_draft; priority5_misc; priority5_encoding_repair
+allow_fixed_short_label	t_language.xml	316050	一十	十一	十一	HuaxDraft	merged_from_huax_draft; priority5_misc; priority5_encoding_repair
+allow_fixed_short_label	t_language.xml	316051	二十	十二	十二	HuaxDraft	merged_from_huax_draft; priority5_misc; priority5_encoding_repair

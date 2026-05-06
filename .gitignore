@@ -1,0 +1,53 @@
+# Repository safety
+# This repository lives inside the installed game directory.
+# Ignore everything first, then allow only the Korean localization project files.
+
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/HXSS_Korean_Localization/
+!/HXSS_Korean_Localization/**
+
+# Generated release binaries should be uploaded to GitHub Releases, not committed.
+/HXSS_Korean_Localization/ReleasePackages/**
+!/HXSS_Korean_Localization/ReleasePackages/
+!/HXSS_Korean_Localization/ReleasePackages/README.md
+
+# Local archives and bundled runtime snapshots
+/HXSS_Korean_Localization/99_Cleanup_Archive/**
+/HXSS_Korean_Localization/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.755+3fab71a/**
+
+# Historical/generated localization outputs
+/HXSS_Korean_Localization/01_XML_Localization/XmlWork/Release/**
+/HXSS_Korean_Localization/01_XML_Localization/XmlWork/SourceSnapshot/**
+/HXSS_Korean_Localization/01_XML_Localization/XmlWork/WorkingXml/**
+/HXSS_Korean_Localization/01_XML_Localization/XmlWork/Review/Archive_Raw/**
+/HXSS_Korean_Localization/01_XML_Localization/XmlWork/Review/Archive_Legacy_Audits_*/**
+/HXSS_Korean_Localization/01_XML_Localization/XmlWork/Review/Archive_Working_Audits_*/**
+/HXSS_Korean_Localization/01_XML_Localization/번역 이슈 스크린샷/**
+
+# Generated caches and working outputs
+**/__pycache__/
+**/*.pyc
+**/bin/
+**/obj/
+/HXSS_Korean_Localization/MaintenanceKit/cache/**
+/HXSS_Korean_Localization/MaintenanceKit/output/**
+/HXSS_Korean_Localization/MaintenanceKit/luac.out
+
+# Local tool runtimes and extracted font/source material
+/HXSS_Korean_Localization/03_Font_Work/Font/.dotnet_home/**
+/HXSS_Korean_Localization/03_Font_Work/Font/dotnet_home/**
+/HXSS_Korean_Localization/03_Font_Work/Font/추출 폰트/**
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.zip
+*.7z
+*.rar
+*.exe
+*.dll
+*.pdb
