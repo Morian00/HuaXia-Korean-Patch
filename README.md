@@ -1,4 +1,4 @@
-# HuaXia Warring States Korean Patch
+# HuaXia: Warring States Korean Patch
 
 Huaxia: Warring States 비공식 유저 한글 패치입니다.
 
