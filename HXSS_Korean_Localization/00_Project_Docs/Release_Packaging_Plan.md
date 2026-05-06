@@ -437,8 +437,8 @@ HXSS_Korean_Localization/MaintenanceKit/tools/package_release.py
 13. manifest 생성.
 14. SHA-256 검증값 생성.
 
-현재 `package_release.py`는 설치기 포함 패키징 흐름으로 작성되어 있다.
-GitHub Releases 수동 설치 ZIP 배포 기준에 맞게 설치기 빌드 단계를 제거하거나 옵션화해야 한다.
+현재 `package_release.py`는 GitHub Releases 수동 설치 ZIP 생성 기준으로 작성되어 있다.
+설치기 빌드 단계는 배포 흐름에서 제외한다.
 
 ## 배포 전 체크리스트
 
