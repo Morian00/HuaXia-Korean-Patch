@@ -1,9 +1,9 @@
 from __future__ import annotations
 
 import shutil
-import subprocess
 import zipfile
 from datetime import datetime
+from hashlib import sha256
 from pathlib import Path
 
 
@@ -16,9 +16,6 @@ PLUGIN_RELEASE_DLL = PLUGIN_SOURCE / "bin" / "Release" / "HXSS.HuiWenFontReplace
 LIVE_PLUGIN_DIR = ROOT / "BepInEx" / "plugins" / "HXSS.HuiWenFontReplacer"
 LIVE_CONFIG = ROOT / "BepInEx" / "config" / "hxss.huiwen-font-replacer.cfg"
 PACKAGE_ROOT = LOCALIZATION_ROOT / "ReleasePackages"
-INSTALLER_PROJECT = LOCALIZATION_ROOT / "Installer" / "HXSSKoreanPatchInstaller" / "HXSSKoreanPatchInstaller.csproj"
-INSTALLER_PAYLOAD = INSTALLER_PROJECT.parent / "Resources" / "payload.zip"
-INSTALLER_PUBLISH_DIR = INSTALLER_PROJECT.parent / "bin" / "Release" / "net8.0-windows" / "win-x64" / "publish"
 
 
 VERSION = "v0.1.3"
@@ -26,31 +23,32 @@ VERSION = "v0.1.3"
 
 README_TEXT = """# HuaXia: Warring States Korean Patch
 
-이 패키지는 화하: 전국시대 한국어 패치 설치기와 유지보수 자료를 함께 포함한 공개 배포 패키지다.
+이 패키지는 화하: 전국시대 한국어 패치와 유지보수 자료를 함께 포함한 공개 배포 패키지다.
 
 ## 설치
 
 1. 배포 ZIP 압축 해제.
-2. `HXSS_KoreanPatch_*_Setup.exe` 실행.
-3. 설치 위치 확인.
-4. 필요 시 `찾아보기`로 게임 설치 폴더 직접 선택.
-5. `설치` 선택.
-6. 게임 실행 후 언어 설정에서 한국어 선택.
-7. 게임 재시작.
+2. Steam 라이브러리에서 Huaxia: Warring States 우클릭.
+3. 관리 > 로컬 파일 보기 선택.
+4. ZIP 내부 파일과 폴더를 게임 설치 폴더 최상위에 복사.
+5. 같은 파일명이 있으면 덮어쓰기.
+6. 게임 실행.
+7. 언어 설정에서 한국어 선택.
+8. 게임 재시작.
 
-설치기는 Steam 레지스트리와 앱 매니페스트를 확인하여 기본 설치 위치를 자동 입력한다.
-자동 탐색 실패 시 사용자가 설치 폴더를 직접 선택할 수 있다.
-설치 폴더는 `hxss.exe` 존재 여부로 검증한다.
+복사 대상 폴더는 `hxss.exe`가 있는 폴더다.
 
 ## 제거
 
-1. `HXSS_KoreanPatch_*_Setup.exe` 실행.
-2. 설치 위치 확인.
-3. `제거` 선택.
+게임 설치 폴더에서 다음 항목을 삭제한다.
 
-설치기는 설치 당시 백업한 파일이 있으면 복원한다.
-백업이 없는 패치 파일은 삭제한다.
-설치 기록이 없는 수동 설치본은 자동 제거 대상이 아니다.
+```text
+BepInEx/plugins/HXSS.HuiWenFontReplacer/
+BepInEx/config/hxss.huiwen-font-replacer.cfg
+```
+
+다른 BepInEx 플러그인을 사용하지 않는 경우에만 BepInEx 기반 파일 전체 삭제를 검토한다.
+문제가 남아 있으면 Steam에서 게임 파일 무결성 검사를 실행한다.
 
 ## 포함 내용
 
@@ -131,19 +129,6 @@ HXSS_Korean_Localization/03_Font_Work/Font/HuiWenFontReplacer/
 ```
 
 플러그인 기능을 수정하려면 .NET SDK 환경에서 해당 프로젝트를 빌드한 뒤 DLL을 교체한다.
-
-## 수동 삭제 참고
-
-설치기를 통한 제거를 권장한다.
-수동 삭제가 필요한 경우 아래 항목을 삭제하면 패치가 비활성화된다.
-
-```text
-BepInEx/plugins/HXSS.HuiWenFontReplacer/
-BepInEx/config/hxss.huiwen-font-replacer.cfg
-HXSS_Korean_Localization/InstallerState/
-```
-
-다른 BepInEx 플러그인을 사용하지 않는 경우에만 BepInEx 기반 파일 전체 제거를 검토한다.
 
 ## 주의
 
@@ -241,35 +226,12 @@ def zip_files(files: list[Path], zip_path: Path, base_dir: Path) -> None:
             zf.write(path, path.relative_to(base_dir))
 
 
-def build_installer(installer_exe: Path) -> None:
-    if not INSTALLER_PROJECT.exists():
-        raise FileNotFoundError(f"Installer project not found: {INSTALLER_PROJECT}")
-
-    subprocess.run(
-        [
-            "dotnet",
-            "publish",
-            str(INSTALLER_PROJECT),
-            "-c",
-            "Release",
-            "-r",
-            "win-x64",
-            "--source",
-            "https://api.nuget.org/v3/index.json",
-            "--self-contained",
-            "true",
-            "/p:PublishSingleFile=true",
-            "/p:EnableCompressionInSingleFile=true",
-            "/p:DebugType=None",
-            "/p:DebugSymbols=false",
-        ],
-        check=True,
-    )
-
-    published_exe = INSTALLER_PUBLISH_DIR / "HXSS_KoreanPatch_Setup.exe"
-    if not published_exe.exists():
-        raise FileNotFoundError(f"Published installer not found: {published_exe}")
-    shutil.copy2(published_exe, installer_exe)
+def file_sha256(path: Path) -> str:
+    digest = sha256()
+    with path.open("rb") as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
 
 def copy_maintenance_kit(dst: Path) -> None:
@@ -331,9 +293,7 @@ def main() -> None:
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     package_name = f"HXSS_KoreanPatch_{VERSION}_{stamp}"
     stage = PACKAGE_ROOT / "stage" / package_name
-    payload_zip = PACKAGE_ROOT / f"{package_name}_payload.zip"
-    installer_exe = PACKAGE_ROOT / f"{package_name}_Setup.exe"
-    output_zip = PACKAGE_ROOT / f"{package_name}_Installer.zip"
+    output_zip = PACKAGE_ROOT / f"{package_name}.zip"
 
     PACKAGE_ROOT.mkdir(parents=True, exist_ok=True)
     copytree_clean(BEPINEX_TEMPLATE, stage)
@@ -353,7 +313,7 @@ def main() -> None:
     write_text(stage / "README_KO.md", README_TEXT)
     write_text(
         stage / "CHANGELOG_KO.md",
-        "- v0.1.3: 설치/제거 지원 설치기 추가. Steam 설치 위치 자동 탐색 및 사용자 지정 설치 위치 선택 지원.\n",
+        "- v0.1.3: GitHub Releases 수동 설치 ZIP 배포 기준 적용.\n",
     )
     copy_maintenance_kit(stage / "HXSS_Korean_Localization" / "MaintenanceKit")
     copy_public_docs(stage / "HXSS_Korean_Localization" / "00_Project_Docs")
@@ -364,25 +324,22 @@ def main() -> None:
         if junk.exists():
             junk.unlink()
 
-    manifest = PACKAGE_ROOT / f"{package_name}_manifest.tsv"
+    manifest = stage / "manifest.tsv"
     with manifest.open("w", encoding="utf-8", newline="\n") as f:
         f.write("path\tsize\n")
         for path in sorted(stage.rglob("*")):
-            if path.is_file():
+            if path.is_file() and path != manifest:
                 f.write(f"{path.relative_to(stage).as_posix()}\t{path.stat().st_size}\n")
 
-    zip_dir(stage, payload_zip)
-    INSTALLER_PAYLOAD.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(payload_zip, INSTALLER_PAYLOAD)
-    build_installer(installer_exe)
-    zip_files([installer_exe, manifest], output_zip, PACKAGE_ROOT)
-    if INSTALLER_PAYLOAD.exists():
-        INSTALLER_PAYLOAD.unlink()
+    zip_dir(stage, output_zip)
+    digest = file_sha256(output_zip)
+    sha_file = PACKAGE_ROOT / f"{package_name}_SHA256.txt"
+    write_text(sha_file, f"{digest}  {output_zip.name}\n")
 
     print(f"stage={stage}")
-    print(f"payload={payload_zip}")
-    print(f"installer={installer_exe}")
     print(f"zip={output_zip}")
+    print(f"sha256={digest}")
+    print(f"sha256_file={sha_file}")
     print(f"manifest={manifest}")
 
 
